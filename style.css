@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #FFFFFF;
+}
+
+
+ul.menu {
+    display: flex;
+    list-style: none;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+ul.icon-menu {
+    display: flex;
+    list-style: none;
+}
+
+ul.icon-menu li a {
+    padding: 0 12px;
+}
