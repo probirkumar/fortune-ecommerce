@@ -84,8 +84,8 @@ ul.icon-menu li a {
     top: 240px;
     right: 120px;
     background-color: #FFF3E3;
-    height: 300px;
-    padding: 20px;
+    padding: 25px;
+    border-radius: 10px;
 }
 
 .text h5 {
@@ -111,4 +111,23 @@ ul.icon-menu li a {
     letter-spacing: 0px;
     color: #333333;
     margin-bottom: 25px;
+}
+
+button.btn-buy {
+    background-color: #B88E2F;
+    padding: 20px 55px;
+    border-radius: 3px;
+    border: none;
+}
+
+button.btn-buy:hover {
+    background-color: #beae87;
+    cursor: pointer;
+}
+button.btn-buy a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
