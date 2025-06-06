@@ -1,9 +1,49 @@
-@media screen and (max-width: 1024) {
-    
-    ul.menu {
-    display: none;
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        flex-grow: 1;
     }
+    
     .menu-icon {
         display: block;
     }
+
+    .header-center-menu {
+        position: absolute;
+        left: 0;
+        top: -200px;
+        width: 100%;
+        padding: 30px 20px;
+        background: #ddd;
+        height: auto;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .5s;
+    }
+
+    .header-center-menu ul.menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .header-center-menu.show-menu {
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* discover section */
+
+    .discover-flex .discover-content {
+        padding: 55px 35px 35px 35px;
+        flex: 0 0 580px;
+    }
+
+    .discover-content .text h1 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+    
 }
+
