@@ -362,3 +362,89 @@ img.vector-sign {
     top: 68px;
     left: 162px;
 }
+
+/* Inspiration Section End */
+
+
+.footer-wrapper {
+    background: #FFFFFF;
+    padding: 50px 100px;
+}
+
+.footer-contant-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contant-wrapper hr {
+    color: #D9D9D9;
+}
+
+.first-col {
+    flex: 0 0 30%;
+}
+/* .secont-col {
+    flex: 0 0 25%;
+}
+.third-col {
+    flex: 0 0 25%;
+} */
+.fourth-col {
+    flex: 0 0 30%;
+}
+
+.first-col h1 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.first-col p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+.secont-col p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #504a4a;
+    margin-bottom: 30px;
+}
+.third-col p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #504a4a;
+    margin-bottom: 30px;
+}
+.fourth-col p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #504a4a;
+    margin-bottom: 30px;
+}
+
+input[type="email"] {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9F9F9F;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+
+input[type="submit"] {
+    border: none;
+    border-bottom: 1px solid;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.privacy-policy p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 25px;
+}
