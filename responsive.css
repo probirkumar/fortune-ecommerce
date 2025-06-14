@@ -45,5 +45,36 @@
         line-height: 60px;
     }
     
+
+    /* Product section */
+
+    .price-tag .current-price {
+        display: block;
+        padding-right: 0;
+    }
+
+    .inspiration-cart h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    }
+
+    .inner-peace {
+        top: 335px;
+        left: 425px;
+        width: 130px;
+        height: 70px;
+        padding: 10px;
+    }
+
+    .inner-peace h3 {
+        font-size: 16px;
+    }
+
+    i.fa-solid.fa-arrow-right {
+    right: -28px;
+    top: 40px;
+    padding: 7px;
 }
 
+
+}

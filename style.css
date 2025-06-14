@@ -232,7 +232,8 @@ ul.icon-menu li a {
     align-content: center;
     position: absolute;
     top: 20px;
-    left: 225px;
+    /* left: 225px; */
+    right: 20px;
 }
 
 .product-text {
@@ -353,15 +354,25 @@ button.explore-button a {
     padding: 20px;
 }
 
-img.vector-sign {
-    background: #B88E2F;
+i.fa-solid.fa-arrow-right {
     position: absolute;
-    width: 25px;
-    height: 21px;
-    text-align: center;
-    top: 68px;
-    left: 162px;
+    right: -30px;
+    top: 60px;
+    background: #B88E2F;
+    padding: 7px;
+    color: white;
 }
+
+i.fa-solid.fa-angle-right {
+    position: absolute;
+    top: 340px;
+    right: 45px;
+    padding: 15px;
+    background: #FFFFFF;
+    color: #B88E2F;
+    border-radius: 50%;
+}
+
 
 /* Inspiration Section End */
 
