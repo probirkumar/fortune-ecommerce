@@ -302,6 +302,52 @@ ul.icon-menu li a {
 
 
 
+
+
+/*    Product Hover   */
+
+button.btn-cart {
+    padding: 15px 60px;
+    color: #B88E2F;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.expression-product {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.expression-product p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+
+.hover-product-item {
+    width: 298px;
+    height: 464px;
+    background: #3A3A3A;
+    position: absolute;
+    padding: 175px 16px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.product:hover .hover-product-item {
+    visibility: visible;
+    transition: all 0.6s ease-in;
+    opacity: 0.8;
+}
+
+
 /* products end */
 
 .inspiration-content-wrapper {
